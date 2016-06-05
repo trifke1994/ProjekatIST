@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/ProjekatIST.Model" />
+  <xs:import namespace="Opa" />
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="ObrisiKorisnika">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="korisnicko" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObrisiKorisnikaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObrisiKorisnikaResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VratiKorisnike">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VratiKorisnikeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ProjekatIST.Model" minOccurs="0" name="VratiKorisnikeResult" nillable="true" type="q1:ArrayOfKorisnik" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObrisiRezervaciju">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idRezervacija" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObrisiRezervacijuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObrisiRezervacijuResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VratRezervacijae">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VratRezervacijaeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="Opa" minOccurs="0" name="VratRezervacijaeResult" nillable="true" type="q2:ArrayOfRezervacija" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObrisiProjekciju">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idProjekcije" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObrisiProjekcijuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObrisiProjekcijuResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Prijava">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="korisnickoIme" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lozinka" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PrijavaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PrijavaResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="slobodnaIZauzetaMesta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="projekcija" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="slobodnaIZauzetaMestaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="slobodnaIZauzetaMestaResult" nillable="true" type="q3:ArrayOfKeyValueOfstringint" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RezervacijaKarte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="projekcijaId" type="xs:int" />
+        <xs:element minOccurs="0" name="korisnickoIme" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RezervacijaKarteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RezervacijaKarteResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UnosKarata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="projekcija_id" type="xs:int" />
+        <xs:element minOccurs="0" name="cena" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UnosKarataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UnosKarataResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RezervacijeKojeIsticu">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RezervacijeKojeIsticuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="Opa" minOccurs="0" name="RezervacijeKojeIsticuResult" nillable="true" type="q4:ArrayOfRezervacija" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UnosProjekcija">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="naziv" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sala" type="xs:int" />
+        <xs:element minOccurs="0" name="kapacitet" type="xs:int" />
+        <xs:element minOccurs="0" name="vreme" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UnosProjekcijaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UnosProjekcijaResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IzmenaProjekcije">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idproj" type="xs:int" />
+        <xs:element minOccurs="0" name="noviNaziv" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="novaSala" type="xs:int" />
+        <xs:element minOccurs="0" name="novikapacitet" type="xs:int" />
+        <xs:element minOccurs="0" name="novoVreme" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IzmenaProjekcijeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IzmenaProjekcijeResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UnosKorisnika">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="korisnik" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lozinka" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UnosKorisnikaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UnosKorisnikaResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IzmenaKorisnika">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="korisnik" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="novoIme" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="novaLozinka" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IzmenaKorisnikaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IzmenaKorisnikaResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VratiProjekcije">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VratiProjekcijeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ProjekatIST.Model" minOccurs="0" name="VratiProjekcijeResult" nillable="true" type="q5:ArrayOfProjekcija" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VratiKorisnikoveRezervacije">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="korisnickoIme" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VratiKorisnikoveRezervacijeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="Opa" minOccurs="0" name="VratiKorisnikoveRezervacijeResult" nillable="true" type="q6:ArrayOfRezervacija" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

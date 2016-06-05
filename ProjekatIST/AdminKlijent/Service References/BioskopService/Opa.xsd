@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Opa" elementFormDefault="qualified" targetNamespace="Opa" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfRezervacija">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Rezervacija" nillable="true" type="tns:Rezervacija" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRezervacija" nillable="true" type="tns:ArrayOfRezervacija" />
+  <xs:complexType name="Rezervacija">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="KorisnickoIme" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="datum_isteka" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="datum_kreiranja" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="id_karta" type="xs:int" />
+      <xs:element minOccurs="0" name="id_projekcija" type="xs:int" />
+      <xs:element minOccurs="0" name="id_rezervacija" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Rezervacija" nillable="true" type="tns:Rezervacija" />
+</xs:schema>

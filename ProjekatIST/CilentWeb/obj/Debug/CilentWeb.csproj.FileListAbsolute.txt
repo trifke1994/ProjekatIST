@@ -1,0 +1,10 @@
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\CilentWeb\bin\Debug\CilentWeb.exe.config
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\CilentWeb\bin\Debug\CilentWeb.exe
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\CilentWeb\bin\Debug\CilentWeb.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\CilentWeb\obj\Debug\CilentWeb.csprojResolveAssemblyReference.cache
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\CilentWeb\obj\Debug\CilentWeb.Prijava.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\CilentWeb\obj\Debug\CilentWeb.Properties.Resources.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\CilentWeb\obj\Debug\Klijent.Rezervacija.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\CilentWeb\obj\Debug\CilentWeb.csproj.GenerateResource.Cache
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\CilentWeb\obj\Debug\CilentWeb.exe
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\CilentWeb\obj\Debug\CilentWeb.pdb

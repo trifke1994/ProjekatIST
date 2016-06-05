@@ -1,0 +1,10 @@
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\Klijent\bin\Debug\Klijent.exe.config
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\Klijent\bin\Debug\Klijent.exe
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\Klijent\bin\Debug\Klijent.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\Klijent\obj\Debug\Klijent.Prijava.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\Klijent\obj\Debug\Klijent.Properties.Resources.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\Klijent\obj\Debug\Klijent.Rezervacija.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\Klijent\obj\Debug\Klijent.csproj.GenerateResource.Cache
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\Klijent\obj\Debug\Klijent.exe
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\Klijent\obj\Debug\Klijent.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\Klijent\obj\Debug\Klijent.csprojResolveAssemblyReference.cache

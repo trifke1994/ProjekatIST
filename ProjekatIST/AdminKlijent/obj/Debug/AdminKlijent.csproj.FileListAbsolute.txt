@@ -1,0 +1,10 @@
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\AdminKlijent\bin\Debug\AdminKlijent.exe.config
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\AdminKlijent\bin\Debug\AdminKlijent.exe
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\AdminKlijent\bin\Debug\AdminKlijent.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\AdminKlijent\obj\Debug\AdminKlijent.csprojResolveAssemblyReference.cache
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\AdminKlijent\obj\Debug\AdminKlijent.Properties.Resources.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\AdminKlijent\obj\Debug\AdminKlijent.csproj.GenerateResource.Cache
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\AdminKlijent\obj\Debug\AdminKlijent.exe
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\AdminKlijent\obj\Debug\AdminKlijent.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\AdminKlijent\obj\Debug\AdminKlijent.Prijava.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\AdminKlijent\obj\Debug\AdminKlijent.Tiketline.resources

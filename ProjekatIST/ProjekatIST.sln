@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjekatIST", "ProjekatIST\ProjekatIST.csproj", "{6FF556E2-B59E-42D4-8398-F8771DB08C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioskopHost", "BioskopHost\BioskopHost.csproj", "{F1222C18-498F-4B0C-9BB7-B1968F65B492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminKlijent", "AdminKlijent\AdminKlijent.csproj", "{12AC443A-5AF0-48A3-BA79-E413AEC31EBD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FF556E2-B59E-42D4-8398-F8771DB08C59} = {6FF556E2-B59E-42D4-8398-F8771DB08C59}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klijent", "Klijent\Klijent.csproj", "{00D20FF3-F735-4B75-988B-A48E2B67EDC7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FF556E2-B59E-42D4-8398-F8771DB08C59} = {6FF556E2-B59E-42D4-8398-F8771DB08C59}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operater", "..\Operater\Operater\Operater.csproj", "{EAF58C30-966A-40BE-8D86-1FC560D4A080}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FF556E2-B59E-42D4-8398-F8771DB08C59} = {6FF556E2-B59E-42D4-8398-F8771DB08C59}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CilentWeb", "CilentWeb\CilentWeb.csproj", "{C9236CA8-204C-4A59-BE1D-BF2A7796C712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FF556E2-B59E-42D4-8398-F8771DB08C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF556E2-B59E-42D4-8398-F8771DB08C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF556E2-B59E-42D4-8398-F8771DB08C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF556E2-B59E-42D4-8398-F8771DB08C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1222C18-498F-4B0C-9BB7-B1968F65B492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1222C18-498F-4B0C-9BB7-B1968F65B492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1222C18-498F-4B0C-9BB7-B1968F65B492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1222C18-498F-4B0C-9BB7-B1968F65B492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12AC443A-5AF0-48A3-BA79-E413AEC31EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AC443A-5AF0-48A3-BA79-E413AEC31EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AC443A-5AF0-48A3-BA79-E413AEC31EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AC443A-5AF0-48A3-BA79-E413AEC31EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D20FF3-F735-4B75-988B-A48E2B67EDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D20FF3-F735-4B75-988B-A48E2B67EDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D20FF3-F735-4B75-988B-A48E2B67EDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D20FF3-F735-4B75-988B-A48E2B67EDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF58C30-966A-40BE-8D86-1FC560D4A080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF58C30-966A-40BE-8D86-1FC560D4A080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF58C30-966A-40BE-8D86-1FC560D4A080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF58C30-966A-40BE-8D86-1FC560D4A080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9236CA8-204C-4A59-BE1D-BF2A7796C712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9236CA8-204C-4A59-BE1D-BF2A7796C712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9236CA8-204C-4A59-BE1D-BF2A7796C712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9236CA8-204C-4A59-BE1D-BF2A7796C712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\ProjekatIST\bin\Debug\ProjekatIST.dll.config
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\ProjekatIST\bin\Debug\ProjekatIST.dll
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\ProjekatIST\bin\Debug\ProjekatIST.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\ProjekatIST\obj\Debug\ProjekatIST.dll
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\ProjekatIST\obj\Debug\ProjekatIST.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\ProjekatIST\obj\Debug\ProjekatIST.csprojResolveAssemblyReference.cache

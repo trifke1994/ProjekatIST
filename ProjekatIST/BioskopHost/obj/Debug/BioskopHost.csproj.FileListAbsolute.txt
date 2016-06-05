@@ -1,0 +1,8 @@
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\BioskopHost\bin\Debug\BioskopHost.exe.config
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\BioskopHost\bin\Debug\BioskopHost.exe
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\BioskopHost\bin\Debug\BioskopHost.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\BioskopHost\bin\Debug\ProjekatIST.dll
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\BioskopHost\bin\Debug\ProjekatIST.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\BioskopHost\obj\Debug\BioskopHost.csprojResolveAssemblyReference.cache
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\BioskopHost\obj\Debug\BioskopHost.exe
+C:\Users\Sinisa\documents\visual studio 2015\Projects\ProjekatIST\BioskopHost\obj\Debug\BioskopHost.pdb
