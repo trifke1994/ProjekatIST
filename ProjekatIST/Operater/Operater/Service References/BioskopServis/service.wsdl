@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Bioskop" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import namespace="Opa" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ProjekatIST.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBioskop_Prijava_InputMessage">
+    <wsdl:part name="parameters" element="tns:Prijava" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_Prijava_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrijavaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_slobodnaIZauzetaMesta_InputMessage">
+    <wsdl:part name="parameters" element="tns:slobodnaIZauzetaMesta" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_slobodnaIZauzetaMesta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:slobodnaIZauzetaMestaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_RezervacijaKarte_InputMessage">
+    <wsdl:part name="parameters" element="tns:RezervacijaKarte" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_RezervacijaKarte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RezervacijaKarteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_UnosKarata_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnosKarata" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_UnosKarata_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnosKarataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_RezervacijeKojeIsticu_InputMessage">
+    <wsdl:part name="parameters" element="tns:RezervacijeKojeIsticu" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_RezervacijeKojeIsticu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RezervacijeKojeIsticuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_UnosProjekcija_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnosProjekcija" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_UnosProjekcija_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnosProjekcijaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_IzmenaProjekcije_InputMessage">
+    <wsdl:part name="parameters" element="tns:IzmenaProjekcije" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_IzmenaProjekcije_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IzmenaProjekcijeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_UnosKorisnika_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnosKorisnika" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_UnosKorisnika_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnosKorisnikaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_IzmenaKorisnika_InputMessage">
+    <wsdl:part name="parameters" element="tns:IzmenaKorisnika" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_IzmenaKorisnika_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IzmenaKorisnikaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_VratiProjekcije_InputMessage">
+    <wsdl:part name="parameters" element="tns:VratiProjekcije" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_VratiProjekcije_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VratiProjekcijeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_VratiKorisnikoveRezervacije_InputMessage">
+    <wsdl:part name="parameters" element="tns:VratiKorisnikoveRezervacije" />
+  </wsdl:message>
+  <wsdl:message name="IBioskop_VratiKorisnikoveRezervacije_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VratiKorisnikoveRezervacijeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IBioskop">
+    <wsdl:operation name="Prijava">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/Prijava" message="tns:IBioskop_Prijava_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/PrijavaResponse" message="tns:IBioskop_Prijava_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="slobodnaIZauzetaMesta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/slobodnaIZauzetaMesta" message="tns:IBioskop_slobodnaIZauzetaMesta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/slobodnaIZauzetaMestaResponse" message="tns:IBioskop_slobodnaIZauzetaMesta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RezervacijaKarte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/RezervacijaKarte" message="tns:IBioskop_RezervacijaKarte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/RezervacijaKarteResponse" message="tns:IBioskop_RezervacijaKarte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnosKarata">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/UnosKarata" message="tns:IBioskop_UnosKarata_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/UnosKarataResponse" message="tns:IBioskop_UnosKarata_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RezervacijeKojeIsticu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/RezervacijeKojeIsticu" message="tns:IBioskop_RezervacijeKojeIsticu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/RezervacijeKojeIsticuResponse" message="tns:IBioskop_RezervacijeKojeIsticu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnosProjekcija">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/UnosProjekcija" message="tns:IBioskop_UnosProjekcija_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/UnosProjekcijaResponse" message="tns:IBioskop_UnosProjekcija_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IzmenaProjekcije">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/IzmenaProjekcije" message="tns:IBioskop_IzmenaProjekcije_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/IzmenaProjekcijeResponse" message="tns:IBioskop_IzmenaProjekcije_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnosKorisnika">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/UnosKorisnika" message="tns:IBioskop_UnosKorisnika_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/UnosKorisnikaResponse" message="tns:IBioskop_UnosKorisnika_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IzmenaKorisnika">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/IzmenaKorisnika" message="tns:IBioskop_IzmenaKorisnika_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/IzmenaKorisnikaResponse" message="tns:IBioskop_IzmenaKorisnika_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VratiProjekcije">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/VratiProjekcije" message="tns:IBioskop_VratiProjekcije_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/VratiProjekcijeResponse" message="tns:IBioskop_VratiProjekcije_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VratiKorisnikoveRezervacije">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBioskop/VratiKorisnikoveRezervacije" message="tns:IBioskop_VratiKorisnikoveRezervacije_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBioskop/VratiKorisnikoveRezervacijeResponse" message="tns:IBioskop_VratiKorisnikoveRezervacije_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IBioskop" type="tns:IBioskop">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Prijava">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/Prijava" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="slobodnaIZauzetaMesta">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/slobodnaIZauzetaMesta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RezervacijaKarte">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/RezervacijaKarte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnosKarata">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/UnosKarata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RezervacijeKojeIsticu">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/RezervacijeKojeIsticu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnosProjekcija">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/UnosProjekcija" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IzmenaProjekcije">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/IzmenaProjekcije" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnosKorisnika">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/UnosKorisnika" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IzmenaKorisnika">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/IzmenaKorisnika" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VratiProjekcije">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/VratiProjekcije" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VratiKorisnikoveRezervacije">
+      <soap:operation soapAction="http://tempuri.org/IBioskop/VratiKorisnikoveRezervacije" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Bioskop">
+    <wsdl:port name="BasicHttpBinding_IBioskop" binding="tns:BasicHttpBinding_IBioskop">
+      <soap:address location="http://127.0.0.1:5666/ProjekatIST/Bioskop/Rezervacija" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

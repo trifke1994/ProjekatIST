@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="50afa1f0-6904-46f4-a657-4a504598c77b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1:5666/ProjekatIST/Bioskop/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="0545493d-c044-4a8a-953f-ade31ad17216" SourceId="1" SourceUrl="http://127.0.0.1:5666/ProjekatIST/Bioskop/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="bfc38108-94fc-42d8-9b83-bc175b1b7131" SourceId="1" SourceUrl="http://127.0.0.1:5666/ProjekatIST/Bioskop/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="8e21b4d7-57ac-4339-b1c0-0a695277bf27" SourceId="1" SourceUrl="http://127.0.0.1:5666/ProjekatIST/Bioskop/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="1874192b-b46b-4ba8-acbe-e25842ae5103" SourceId="1" SourceUrl="http://127.0.0.1:5666/ProjekatIST/Bioskop/mex" />
+    <MetadataFile FileName="Opa.xsd" MetadataType="Schema" ID="37a909d7-737f-40c5-9573-7c4b4b24bb05" SourceId="1" SourceUrl="http://127.0.0.1:5666/ProjekatIST/Bioskop/mex" />
+    <MetadataFile FileName="ProjekatIST.Model.xsd" MetadataType="Schema" ID="6e05038d-0abb-45e7-9db0-94ce8eba378f" SourceId="1" SourceUrl="http://127.0.0.1:5666/ProjekatIST/Bioskop/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

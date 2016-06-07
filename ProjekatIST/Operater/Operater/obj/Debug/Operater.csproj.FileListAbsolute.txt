@@ -1,0 +1,10 @@
+C:\Users\Sinisa\documents\visual studio 2015\Projects\Operater\Operater\bin\Debug\Operater.exe.config
+C:\Users\Sinisa\documents\visual studio 2015\Projects\Operater\Operater\bin\Debug\Operater.exe
+C:\Users\Sinisa\documents\visual studio 2015\Projects\Operater\Operater\bin\Debug\Operater.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\Operater\Operater\obj\Debug\Operater.Properties.Resources.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\Operater\Operater\obj\Debug\Operater.Prijava.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\Operater\Operater\obj\Debug\Operater.Tiketline.resources
+C:\Users\Sinisa\documents\visual studio 2015\Projects\Operater\Operater\obj\Debug\Operater.csproj.GenerateResource.Cache
+C:\Users\Sinisa\documents\visual studio 2015\Projects\Operater\Operater\obj\Debug\Operater.exe
+C:\Users\Sinisa\documents\visual studio 2015\Projects\Operater\Operater\obj\Debug\Operater.pdb
+C:\Users\Sinisa\documents\visual studio 2015\Projects\Operater\Operater\obj\Debug\Operater.csprojResolveAssemblyReference.cache
